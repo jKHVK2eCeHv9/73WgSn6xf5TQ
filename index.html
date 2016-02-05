@@ -26,7 +26,7 @@
 <li><a href="#" onclick="$.mobile.changePage('http://tnplmobile.com/app/v3.0.1/contact.asp');">Contact Us</a></li>
 <li><a href="#" onclick="$.mobile.changePage('http://tnplmobile.com/app/v3.0.1/about.asp');">About This App</a></li>
 </ul>
-<div id="copyright"><strong>&copy; 2014 Primo Interactive Limited</strong><br/>Officially licensed by The Nuts Poker League</div>
+<div id="copyright"><strong>&copy; 2016 Primo Interactive Limited</strong><br/>Officially licensed by The Nuts Poker League</div>
 </div>
 </div>
 <div data-role="page" id="offline" data-theme="e">
@@ -47,7 +47,7 @@ function doNoConnectFunction() {$.mobile.changePage('#offline');}
 var i = new Image();
 i.onload = doConnectFunction;
 i.onerror = doNoConnectFunction;
-i.src = 'http://www.thenutspokerleague.com/images/logos/default.png?x=' + escape(Date());
+i.src = 'http://tnplmobile.com/app/v3.0.1/logo.png?x=' + escape(Date());
 </script>
 <script src="jquery-mobile/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
 <script type="text/javascript">jQuery('div').live('pagehide', function(event, ui){var page = jQuery(event.target);if(page.attr('data-cache') == 'never'){page.remove();};});</script>
