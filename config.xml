@@ -3,7 +3,7 @@
 <name>TNPL Mobile</name>
 <description>TNPL Mobile, the official Nuts Poker League app, enables you to check venue league tables, view individual event players and winners, find your nearest venues and keep up-to-date with the latest news from the league.</description>
 <author href="https://www.primointeractive.com/" email="studio@primointeractive.com">Primo Interactive</author>
-<preference name="phonegap-version" value="cli-5.2.0" />
+<preference name="phonegap-version" value="cli-5.4.1" />
 <preference name="orientation" value="default" />
 <preference name="target-device" value="universal" />
 <preference name="fullscreen" value="false" />
