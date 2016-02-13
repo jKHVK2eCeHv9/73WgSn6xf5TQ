@@ -16,17 +16,15 @@
 <div data-role="page" id="home" data-theme="e">
 <div data-role="header" data-theme="a"><h1>TNPL Mobile</h1></div>
 <div data-role="content">
-<div id="logo"><img src="http://tnplmobile.com/app/v3.0.1/logo.png" width="250" height="100" /></div>
+<div id="logo"><img src="https://tnplmobile.com/app/3.2.0/logo.png" width="200" /></div>
 <ul data-role="listview" data-inset="true">
-<li><a href="#" onclick="$.mobile.changePage('http://tnplmobile.com/app/v3.0.1/regions.asp?x=v');">Venue League Tables</a></li>
-<li><a href="#" onclick="$.mobile.changePage('http://tnplmobile.com/app/v3.0.1/regions.asp?x=r');">Regional League Tables</a></li>
-<li><a href="#" onclick="$.mobile.changePage('http://tnplmobile.com/app/v3.0.1/uk_league.asp');">UK Top 200</a></li>
-<li><a href="#" onclick="$.mobile.changePage('http://tnplmobile.com/app/v3.0.1/find_event.asp?x=new');">Find an Event</a></li>
-<li><a href="#" onclick="$.mobile.changePage('http://tnplmobile.com/app/v3.0.1/news.asp');">Latest News</a></li>
-<li><a href="#" onclick="$.mobile.changePage('http://tnplmobile.com/app/v3.0.1/contact.asp');">Contact Us</a></li>
-<li><a href="#" onclick="$.mobile.changePage('http://tnplmobile.com/app/v3.0.1/about.asp');">About This App</a></li>
+<li><a href="#" onclick="$.mobile.changePage('https://tnplmobile.com/app/3.2.0/regions-local');">Venue League Tables</a></li>
+<li><a href="#" onclick="$.mobile.changePage('https://tnplmobile.com/app/3.2.0/regions-regional');">Regional League Tables</a></li>
+<li><a href="#" onclick="$.mobile.changePage('https://tnplmobile.com/app/3.2.0/uk-league');">UK Top 200</a></li>
+<li><a href="#" onclick="$.mobile.changePage('https://tnplmobile.com/app/3.2.0/find-event');">Find an Event</a></li>
+<li><a href="#" onclick="$.mobile.changePage('https://tnplmobile.com/app/3.2.0/about');">About</a></li>
 </ul>
-<div id="copyright"><strong>&copy; 2016 Primo Interactive Limited</strong><br/>Officially licensed by The Nuts Poker League</div>
+<div id="copyright"><strong>&copy; 2011 - 2016<br/>Primo Interactive Limited</strong><br/>Officially licensed by The Nuts Poker League</div>
 </div>
 </div>
 <div data-role="page" id="offline" data-theme="e">
@@ -34,8 +32,7 @@
 <div data-role="content">
 <p class="error"><strong>Error: Offline</strong></p>
 <p>TNPL Mobile requires an active Internet connection. League data is retrieved in real-time from thenutspokerleague.com to ensure it is as fresh and accurate as possible, so you need to ensure you have an Internet connection available.</p>
-<p>The bandwidth required is small, so either a WiFi or cellular data connection will be fine.</p>
-<form onsubmit="$.mobile.changePage('http://tnplmobile.com/app/v3.0.1/default.asp');" method="post">
+<form onsubmit="$.mobile.changePage('https://tnplmobile.com/app/3.2.0/default');" method="post">
 <p><input type="submit" value="Try Again" /></p>
 </form>
 </div>
@@ -47,7 +44,7 @@ function doNoConnectFunction() {$.mobile.changePage('#offline');}
 var i = new Image();
 i.onload = doConnectFunction;
 i.onerror = doNoConnectFunction;
-i.src = 'http://tnplmobile.com/app/v3.0.1/logo.png?x=' + escape(Date());
+i.src = 'https://tnplmobile.com/app/3.2.0/logo.png?x=' + escape(Date());
 </script>
 <script src="jquery-mobile/jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
 <script type="text/javascript">jQuery('div').live('pagehide', function(event, ui){var page = jQuery(event.target);if(page.attr('data-cache') == 'never'){page.remove();};});</script>
