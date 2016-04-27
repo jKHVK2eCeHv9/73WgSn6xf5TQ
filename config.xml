@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.primointeractive.tnplmobile" version="3.2.1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.primointeractive.tnplmobile" version="3.3.0">
 <name>TNPL Mobile</name>
-<description>The official Nuts Poker League app enables you to check venue league tables, view individual event players and winners and find your nearest venues.</description>
+<description>The official Nuts Poker League app enables you to check current and past league tables, view individual event players and winners and find your nearest venues.</description>
 <author href="https://www.primointeractive.com/" email="studio@primointeractive.com">Primo Interactive</author>
 <preference name="phonegap-version" value="cli-5.4.1" />
 <preference name="orientation" value="default" />
