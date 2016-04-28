@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.primointeractive.tnplmobile" version="3.3.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.primointeractive.tnplmobile" version="3.3.1">
 <name>TNPL Mobile</name>
 <description>The official Nuts Poker League app enables you to check current and past league tables, view individual event players and winners and find your nearest venues.</description>
 <author href="https://www.primointeractive.com/" email="studio@primointeractive.com">Primo Interactive</author>
@@ -33,8 +33,12 @@
 <access origin="http://thenutspokerleague.com" subdomains="true" />
 <access origin="http://google.com" subdomains="true" />
 <access origin="http://googleapis.com" subdomains="true" />
+<access origin="http://primointeractive.com" subdomains="true" />
+<access origin="http://guaranteed-carloans.co.uk" subdomains="true" />
 <access origin="https://tnplmobile.com" subdomains="true" />
 <access origin="https://thenutspokerleague.com" subdomains="true" />
 <access origin="https://google.com" subdomains="true" />
 <access origin="https://googleapis.com" subdomains="true" />
+<access origin="https://primointeractive.com" subdomains="true" />
+<access origin="https://guaranteed-carloans.co.uk" subdomains="true" />
 </widget>
